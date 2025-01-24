@@ -48,3 +48,7 @@ println(GlobalVariable.productcount)
 price = WebUI.getText(findTestObject('Object Repository/price_xpath'))
 
 println(price)
+
+//project
+//ADITYA_AGARWAL
+//project_for_dev_trust_flipkart

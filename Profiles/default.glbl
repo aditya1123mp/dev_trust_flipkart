@@ -5,7 +5,7 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description></description>
+      <description>to  take vlaue and treat it as global varibale</description>
       <initValue>[]</initValue>
       <name>productcount</name>
    </GlobalVariableEntity>
