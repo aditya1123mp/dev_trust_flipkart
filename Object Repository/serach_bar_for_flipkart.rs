@@ -7,6 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -16,4 +17,12 @@
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//input[@title=&quot;Search for Products, Brands and More&quot;]</value>
+      <webElementGuid>a3085d9c-a33b-47f8-ba15-35a4a4fc2545</webElementGuid>
+   </webElementProperties>
 </WebElementEntity>

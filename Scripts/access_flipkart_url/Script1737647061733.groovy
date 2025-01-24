@@ -25,7 +25,7 @@ WebUI.delay(3)
 
 WebUI.navigateToUrl('https://www.flipkart.com/')
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 
 //project
