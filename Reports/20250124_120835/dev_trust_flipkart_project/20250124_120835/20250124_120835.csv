@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+dev_trust_flipkart_project,Chrome 131.0.0.0,dev_trust_flipkart_project,,24-01-2025 12:08:40,24-01-2025 12:10:24,1m - 44.233s,ERROR
+,,,,,,,
+Test Cases/access_flipkart_url,Chrome 131.0.0.0,access_flipkart_url,,24-01-2025 12:08:40,24-01-2025 12:08:56,15.991s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,24-01-2025 12:08:41,24-01-2025 12:08:43,2.446s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,24-01-2025 12:08:43,24-01-2025 12:08:43,0.169s,PASSED
+delay(3),Chrome 131.0.0.0,,,24-01-2025 12:08:43,24-01-2025 12:08:47,3.133s,PASSED
+"navigateToUrl(""https://www.flipkart.com/"")",Chrome 131.0.0.0,,,24-01-2025 12:08:47,24-01-2025 12:08:53,6.892s,PASSED
+delay(3),Chrome 131.0.0.0,,,24-01-2025 12:08:53,24-01-2025 12:08:56,3.014s,PASSED
+,,,,,,,
+Test Cases/Test_Case_to_insert_data_in_search_bar,Chrome 131.0.0.0,Test_Case_to_insert_data_in_search_bar,,24-01-2025 12:08:56,24-01-2025 12:09:13,16.932s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/serach_bar_for_flipkart""), 10)",Chrome 131.0.0.0,,,24-01-2025 12:08:57,24-01-2025 12:08:57,0.452s,PASSED
+"click(findTestObject(""Object Repository/serach_bar_for_flipkart""))",Chrome 131.0.0.0,,,24-01-2025 12:08:57,24-01-2025 12:08:58,0.544s,PASSED
+delay(3),Chrome 131.0.0.0,,,24-01-2025 12:08:58,24-01-2025 12:09:01,3.013s,PASSED
+"setText(findTestObject(""Object Repository/serach_bar_for_flipkart""), ""Shoes for Men"")",Chrome 131.0.0.0,,,24-01-2025 12:09:01,24-01-2025 12:09:02,0.874s,PASSED
+delay(2),Chrome 131.0.0.0,,,24-01-2025 12:09:02,24-01-2025 12:09:04,2.025s,PASSED
+"click(findTestObject(""Object Repository/submit_button_for_search_bar""))",Chrome 131.0.0.0,,,24-01-2025 12:09:04,24-01-2025 12:09:13,9.714s,PASSED
+,,,,,,,
+Test Cases/Test_case_to_get_price_data,Chrome 131.0.0.0,,,24-01-2025 12:09:13,24-01-2025 12:09:16,2.388s,PASSED
+driver = getWebDriver(),Chrome 131.0.0.0,,,24-01-2025 12:09:14,24-01-2025 12:09:14,0.025s,PASSED
+"elements = driver.findElements(By.xpath(""//a[@class=""+tlBoD""]""))",Chrome 131.0.0.0,,,24-01-2025 12:09:14,24-01-2025 12:09:15,1.436s,PASSED
+count = elements.size(),Chrome 131.0.0.0,,,24-01-2025 12:09:15,24-01-2025 12:09:15,0.004s,PASSED
+"println(""Number of products found: "" + count)",Chrome 131.0.0.0,,,24-01-2025 12:09:15,24-01-2025 12:09:15,0.008s,PASSED
+productcount = count,Chrome 131.0.0.0,,,24-01-2025 12:09:15,24-01-2025 12:09:15,0.105s,PASSED
+println(productcount),Chrome 131.0.0.0,,,24-01-2025 12:09:15,24-01-2025 12:09:15,0.004s,PASSED
+"price = getText(findTestObject(""Object Repository/price_xpath""))",Chrome 131.0.0.0,,,24-01-2025 12:09:15,24-01-2025 12:09:16,0.317s,PASSED
+println(price),Chrome 131.0.0.0,,,24-01-2025 12:09:16,24-01-2025 12:09:16,0.009s,PASSED
+,,,,,,,
+Test Cases/Test_case_to_save_data_of_shoes,Chrome 131.0.0.0,,,24-01-2025 12:09:16,24-01-2025 12:10:24,1m - 8.651s,ERROR
+driver = getWebDriver(),Chrome 131.0.0.0,,,24-01-2025 12:09:16,24-01-2025 12:09:16,0.006s,PASSED
+"filePath = ""C:\Users\DELL\OneDrive\Desktop\ProductsData.xlsx""",Chrome 131.0.0.0,,,24-01-2025 12:09:16,24-01-2025 12:09:16,0.000s,PASSED
+workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(),Chrome 131.0.0.0,,,24-01-2025 12:09:16,24-01-2025 12:09:17,0.448s,PASSED
+"sheet = workbook.createSheet(""Products"")",Chrome 131.0.0.0,,,24-01-2025 12:09:17,24-01-2025 12:09:17,0.050s,PASSED
+header = sheet.createRow(0),Chrome 131.0.0.0,,,24-01-2025 12:09:17,24-01-2025 12:09:17,0.045s,PASSED
+"createCell(0).setCellValue(""Price (MRP)"")",Chrome 131.0.0.0,,,24-01-2025 12:09:17,24-01-2025 12:09:17,0.076s,PASSED
+"createCell(1).setCellValue(""Original Price"")",Chrome 131.0.0.0,,,24-01-2025 12:09:17,24-01-2025 12:09:17,0.000s,PASSED
+"createCell(2).setCellValue(""Discount Offered"")",Chrome 131.0.0.0,,,24-01-2025 12:09:17,24-01-2025 12:09:17,0.000s,PASSED
+rowIndex = 1,Chrome 131.0.0.0,,,24-01-2025 12:09:17,24-01-2025 12:09:17,0.000s,PASSED
+"rowIndex = extractAndSaveData(driver, rowIndex, sheet)",Chrome 131.0.0.0,,,24-01-2025 12:09:17,24-01-2025 12:09:17,0.010s,PASSED
+"productElements = driver.findElements(By.xpath(""//a[@class=""+tlBoD""]""))",Chrome 131.0.0.0,,,24-01-2025 12:09:17,24-01-2025 12:09:17,0.274s,PASSED
+"productElements.eachWithIndex({ org.openqa.selenium.WebElement productElement, int index -> ... })",Chrome 131.0.0.0,,,24-01-2025 12:09:17,24-01-2025 12:09:50,32.980s,PASSED
+return rowIndex,Chrome 131.0.0.0,,,24-01-2025 12:09:50,24-01-2025 12:09:50,0.005s,PASSED
+"nextButton = driver.findElement(By.xpath(""//span[contains(text(),""Next"")]""))",Chrome 131.0.0.0,,,24-01-2025 12:09:50,24-01-2025 12:09:50,0.248s,PASSED
+if (nextButton.isDisplayed() && nextButton.isEnabled()),Chrome 131.0.0.0,,,24-01-2025 12:09:50,24-01-2025 12:09:56,5.356s,PASSED
+"rowIndex = extractAndSaveData(driver, rowIndex, sheet)",Chrome 131.0.0.0,,,24-01-2025 12:09:56,24-01-2025 12:09:56,0.000s,PASSED
+"productElements = driver.findElements(By.xpath(""//a[@class=""+tlBoD""]""))",Chrome 131.0.0.0,,,24-01-2025 12:09:56,24-01-2025 12:09:56,0.260s,PASSED
+"productElements.eachWithIndex({ org.openqa.selenium.WebElement productElement, int index -> ... })",Chrome 131.0.0.0,,,24-01-2025 12:09:56,24-01-2025 12:10:24,28.396s,ERROR

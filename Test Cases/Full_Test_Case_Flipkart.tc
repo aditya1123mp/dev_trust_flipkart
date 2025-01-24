@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Full_Test_Case_Flipkart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8f51223f-0d76-45d4-b7df-fbb2c8a48fc1</testCaseGuid>
+</TestCaseEntity>

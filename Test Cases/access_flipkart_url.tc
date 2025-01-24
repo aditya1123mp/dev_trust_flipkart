@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>access_flipkart_url</description>
+   <name>access_flipkart_url</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f1a8b440-199a-4e09-b771-24ffd3ec87c5</testCaseGuid>
+</TestCaseEntity>

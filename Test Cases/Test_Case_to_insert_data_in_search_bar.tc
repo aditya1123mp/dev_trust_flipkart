@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test_Case_to_insert_data_in_search_bar</description>
+   <name>Test_Case_to_insert_data_in_search_bar</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd924d9f-a2f2-4c6a-95d2-847e444b57e7</testCaseGuid>
+</TestCaseEntity>

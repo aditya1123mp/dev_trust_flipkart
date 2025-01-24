@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Test_case_to_save_data_of_shoes</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7f968b5f-e934-4614-a842-e28662a1e51b</testCaseGuid>
+</TestCaseEntity>
